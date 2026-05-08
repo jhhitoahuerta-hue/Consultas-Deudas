@@ -1,13 +1,67 @@
 // Auto-generado por generate_data.py - NO EDITAR
-// Fecha: 07/05/2026 20:00
+// Fecha: 07/05/2026 22:38
 const DEBT_DATA = {
-  "generated": "07/05/2026 20:00",
+  "generated": "07/05/2026 22:38",
   "config": {
     "faenaCostBefore": 50,
     "faenaCostAfter": 100,
     "faenaThreshold": "07/09/2025",
     "reunionCost": 30
   },
+  "cuotas": [
+    {
+      "name": "CERCO PERIMÉTRICO S/. 10.00",
+      "monto": 10.0
+    },
+    {
+      "name": "CARRETERA LA GRAMA  S/. 10.00",
+      "monto": 10.0
+    },
+    {
+      "name": "REPLANTERO S/. 70.00",
+      "monto": 70.0
+    },
+    {
+      "name": "TELEVISOR S/. 4.00",
+      "monto": 4.0
+    },
+    {
+      "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+      "monto": 80.0
+    },
+    {
+      "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+      "monto": 50.0
+    },
+    {
+      "name": "CUOTA PARA ENEL  S/.40.00",
+      "monto": 40.0
+    },
+    {
+      "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+      "monto": 20.0
+    },
+    {
+      "name": "CUOTA DE 100",
+      "monto": 100.0
+    },
+    {
+      "name": "ADMINISTRATIVO DICIEMBRE",
+      "monto": 10.0
+    },
+    {
+      "name": "ADMINISTRATIVO NOVIEMBRE",
+      "monto": 10.0
+    },
+    {
+      "name": "ADMINISTRATIVO OCTUBRE",
+      "monto": 10.0
+    },
+    {
+      "name": "ADMINISTRATIVO SEPTIEMBRE",
+      "monto": 10.0
+    }
+  ],
   "manzanas": {
     "A": [
       "1",
@@ -210,7 +264,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 120
+      "grandTotal": 360.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 240.0,
+        "totalCuotas": 13
+      }
     },
     "A-2": {
       "name": "Julino Huerta Herrera",
@@ -239,7 +353,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 0,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "A-3": {
       "name": "Oscar Mena Hoyos",
@@ -326,7 +499,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 540
+      "grandTotal": 680.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "B-1": {
       "name": "Perez Perez Yovana Yolanda",
@@ -555,7 +788,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 2100
+      "grandTotal": 2430.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          }
+        ],
+        "totalPendiente": 330.0,
+        "totalCuotas": 13
+      }
     },
     "B-2": {
       "name": "Gloria Valverde Reyes",
@@ -601,7 +894,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 130
+      "grandTotal": 370.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 240.0,
+        "totalCuotas": 13
+      }
     },
     "B-3": {
       "name": "Huerta Herrera Vilma",
@@ -630,7 +983,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 0,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "B-4": {
       "name": "Manuel Julca Gaspar",
@@ -723,7 +1135,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 630
+      "grandTotal": 650.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "B-5": {
       "name": "Montenegro Fernandez Dilma",
@@ -932,7 +1404,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 1960
+      "grandTotal": 2224.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 264.0,
+        "totalCuotas": 13
+      }
     },
     "B-6": {
       "name": "Pacheco Perez Jhovana Noemí",
@@ -1008,7 +1540,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 390
+      "grandTotal": 530.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "B-7": {
       "name": "Patricio Morales Luz Guisela",
@@ -1258,7 +1850,67 @@ const DEBT_DATA = {
           "yearTotal": 230
         }
       },
-      "grandTotal": 2240
+      "grandTotal": 2480.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 240.0,
+        "totalCuotas": 13
+      }
     },
     "B-8": {
       "name": "Cabanillas  Blas Magda",
@@ -1318,7 +1970,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 300
+      "grandTotal": 584.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 284.0,
+        "totalCuotas": 13
+      }
     },
     "B-9": {
       "name": "Manuel Julca Gaspar",
@@ -1411,7 +2123,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 610
+      "grandTotal": 750.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "C-1": {
       "name": "Lopez Salinas Graciela",
@@ -1510,7 +2282,67 @@ const DEBT_DATA = {
           "yearTotal": 230
         }
       },
-      "grandTotal": 760
+      "grandTotal": 900.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "C-2": {
       "name": "Juan Carlos Julca Gaspar",
@@ -1587,7 +2419,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 360
+      "grandTotal": 500.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "C-3": {
       "name": "Moreno Blas Hugo",
@@ -1801,7 +2693,67 @@ const DEBT_DATA = {
           "yearTotal": 230
         }
       },
-      "grandTotal": 2010
+      "grandTotal": 2014.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 4.0,
+        "totalCuotas": 13
+      }
     },
     "C-4": {
       "name": "Velasquez Arteaga Wilder",
@@ -1923,7 +2875,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 920
+      "grandTotal": 1090.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 170.0,
+        "totalCuotas": 13
+      }
     },
     "C-5": {
       "name": "Caro Giraldo Francisca",
@@ -1994,7 +3006,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 300
+      "grandTotal": 300,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "C-6": {
       "name": "Villanueva Zevallos Meri",
@@ -2035,7 +3106,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 80
+      "grandTotal": 110.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 30.0,
+        "totalCuotas": 13
+      }
     },
     "C-7": {
       "name": "Rojas Garcia David",
@@ -2205,7 +3336,67 @@ const DEBT_DATA = {
           "yearTotal": 230
         }
       },
-      "grandTotal": 1550
+      "grandTotal": 1824.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 274.0,
+        "totalCuotas": 13
+      }
     },
     "C-8": {
       "name": "Jean Pier Vargas Lopez",
@@ -2251,7 +3442,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 180
+      "grandTotal": 200.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "C-9": {
       "name": "Perez Pizarro Brigida Abelia",
@@ -2280,7 +3531,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 0,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "C-10": {
       "name": "Kelly Rugel Garcia",
@@ -2321,7 +3631,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 130
+      "grandTotal": 270.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "C-11": {
       "name": "Benites Pupuche Julio Cesar",
@@ -2350,7 +3720,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 140.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "C-12": {
       "name": "Vega Santacruz Oscar Adderly",
@@ -2397,7 +3827,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 180
+      "grandTotal": 220.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 40.0,
+        "totalCuotas": 13
+      }
     },
     "C-13": {
       "name": "Ormachea Chalco Elsa",
@@ -2438,7 +3928,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 80
+      "grandTotal": 100.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "C-14": {
       "name": "Abarca Huaman Santosa",
@@ -2467,7 +4017,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 140.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-1": {
       "name": "Aranda Ramirez Alfredo",
@@ -2512,7 +4122,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 90
+      "grandTotal": 250.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 160.0,
+        "totalCuotas": 13
+      }
     },
     "D-2": {
       "name": "Avila Davila Mirian Yovany",
@@ -2599,7 +4269,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 390
+      "grandTotal": 670.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 280.0,
+        "totalCuotas": 13
+      }
     },
     "D-3": {
       "name": "Hidalgo Terry Lia Cris",
@@ -2665,7 +4395,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 210
+      "grandTotal": 534.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 324.0,
+        "totalCuotas": 13
+      }
     },
     "D-4": {
       "name": "Diana Gonzales Sosa",
@@ -2694,7 +4484,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 0,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "D-5": {
       "name": "Recuperado Para La Asociación",
@@ -2723,7 +4572,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 424.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [],
+        "totalPendiente": 424.0,
+        "totalCuotas": 13
+      }
     },
     "D-6": {
       "name": "Juan Leví Mautino García",
@@ -2764,7 +4672,67 @@ const DEBT_DATA = {
           "yearTotal": 30
         }
       },
-      "grandTotal": 60
+      "grandTotal": 230.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 170.0,
+        "totalCuotas": 13
+      }
     },
     "D-7": {
       "name": "Amelia Enma Juarez Hermenegildo",
@@ -2816,7 +4784,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 230
+      "grandTotal": 350.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 120.0,
+        "totalCuotas": 13
+      }
     },
     "D-8": {
       "name": "Hilario Huerta Herrera",
@@ -2872,7 +4900,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 430
+      "grandTotal": 570.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-9": {
       "name": "Pupuche Antón Cecilia",
@@ -2918,7 +5006,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 250
+      "grandTotal": 290.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 40.0,
+        "totalCuotas": 13
+      }
     },
     "D-10": {
       "name": "Peña Calle Sintia Estefany",
@@ -2959,7 +5107,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 60
+      "grandTotal": 90.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 30.0,
+        "totalCuotas": 13
+      }
     },
     "D-11": {
       "name": "Guzman S. Cabanillas Blas",
@@ -3010,7 +5218,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 260
+      "grandTotal": 400.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-12": {
       "name": "Quispe Navarro Monica",
@@ -3158,7 +5426,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 810
+      "grandTotal": 1010.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 200.0,
+        "totalCuotas": 13
+      }
     },
     "D-13": {
       "name": "Solorzano Sifuentes Jorge Edelvid",
@@ -3321,7 +5649,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 1420
+      "grandTotal": 1560.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-14": {
       "name": "Local Comunal",
@@ -3350,7 +5738,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 424.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [],
+        "totalPendiente": 424.0,
+        "totalCuotas": 13
+      }
     },
     "D-15": {
       "name": "Carrillo Quispe Oscar",
@@ -3479,7 +5926,67 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 960
+      "grandTotal": 1240.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 280.0,
+        "totalCuotas": 13
+      }
     },
     "D-16": {
       "name": "Davila Cerdan Wilder",
@@ -3613,7 +6120,67 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 970
+      "grandTotal": 1250.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 280.0,
+        "totalCuotas": 13
+      }
     },
     "D-17": {
       "name": "Cueva Gamarra Diana Milena",
@@ -3648,7 +6215,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 50
+      "grandTotal": 110.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 60.0,
+        "totalCuotas": 13
+      }
     },
     "D-18": {
       "name": "Gonzales Pizarro Nelva Delcy.",
@@ -3683,7 +6310,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 30
+      "grandTotal": 170.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-19": {
       "name": "Altamirano Minaya Edwar Efrain",
@@ -3724,7 +6411,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 80
+      "grandTotal": 220.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-20": {
       "name": "Felipe Lucano Bazan",
@@ -3801,7 +6548,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 640
+      "grandTotal": 780.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-21": {
       "name": "Albino Trujillo Estefania",
@@ -3964,7 +6771,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 1140
+      "grandTotal": 1280.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-22": {
       "name": "Piedra Davila Nelsi",
@@ -4016,7 +6883,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 210
+      "grandTotal": 350.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "D-23": {
       "name": "Perez Diaz Cesar.",
@@ -4110,7 +7037,66 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 580
+      "grandTotal": 580,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "E-1": {
       "name": "Condori Mamani Yesica",
@@ -4232,7 +7218,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 640
+      "grandTotal": 780.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "E-2": {
       "name": "Trujillo Bustillos Giovana",
@@ -4482,7 +7528,67 @@ const DEBT_DATA = {
           "yearTotal": 230
         }
       },
-      "grandTotal": 2240
+      "grandTotal": 2570.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          }
+        ],
+        "totalPendiente": 330.0,
+        "totalCuotas": 13
+      }
     },
     "E-3": {
       "name": "Acuña Pablo Cirilo",
@@ -4593,7 +7699,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 700
+      "grandTotal": 840.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "E-4": {
       "name": "Mamani Chura Juana",
@@ -4628,7 +7794,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 50
+      "grandTotal": 190.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "E-5": {
       "name": "Rosales Altamirano Mariela",
@@ -4657,7 +7883,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 140.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "E-6": {
       "name": "Segura Pari Estefania",
@@ -4776,7 +8062,67 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 750
+      "grandTotal": 984.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 234.0,
+        "totalCuotas": 13
+      }
     },
     "E-7": {
       "name": "Sharon Tiffani Veliz De La Cruz",
@@ -4817,7 +8163,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 80
+      "grandTotal": 100.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "E-8": {
       "name": "Ronaldiño Javier Torres Goñi",
@@ -5005,7 +8411,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 1880
+      "grandTotal": 2020.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "E-9": {
       "name": "Magdalena Avendaño Lopez",
@@ -5174,7 +8640,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 1390
+      "grandTotal": 1410.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "E-10": {
       "name": "Agurto Goñi Gladys",
@@ -5352,7 +8878,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 1820
+      "grandTotal": 1960.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "E-11": {
       "name": "Meza Goñi Christian Anibal",
@@ -5561,7 +9147,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 2020
+      "grandTotal": 2310.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 290.0,
+        "totalCuotas": 13
+      }
     },
     "E-12": {
       "name": "Yesica Cardenas Luna",
@@ -5612,7 +9258,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 180
+      "grandTotal": 340.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 160.0,
+        "totalCuotas": 13
+      }
     },
     "E-13": {
       "name": "Mamani Chura Victoria",
@@ -5659,7 +9365,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 110
+      "grandTotal": 140.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 30.0,
+        "totalCuotas": 13
+      }
     },
     "E-14": {
       "name": "Mamani Chura Emiliana",
@@ -5767,7 +9533,67 @@ const DEBT_DATA = {
           "yearTotal": 30
         }
       },
-      "grandTotal": 920
+      "grandTotal": 1060.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "F-1": {
       "name": "Gladys Huaman Pardo",
@@ -5977,7 +9803,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 1980
+      "grandTotal": 2190.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 210.0,
+        "totalCuotas": 13
+      }
     },
     "F-2": {
       "name": "Yeny Flor Silva Llashag",
@@ -6012,7 +9898,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 30
+      "grandTotal": 170.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "F-3": {
       "name": "Bendezu Mieses Zenaida",
@@ -6075,7 +10021,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 340
+      "grandTotal": 380.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          }
+        ],
+        "totalPendiente": 40.0,
+        "totalCuotas": 13
+      }
     },
     "F-4": {
       "name": "Cirila Llashag Vidal",
@@ -6116,7 +10122,66 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 130
+      "grandTotal": 130,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "F-5": {
       "name": "Guevara Salazar Ansel",
@@ -6214,7 +10279,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 840
+      "grandTotal": 1040.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 200.0,
+        "totalCuotas": 13
+      }
     },
     "F-6": {
       "name": "Guevara Salazar Emeli",
@@ -6333,7 +10458,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 1030
+      "grandTotal": 1170.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "F-7": {
       "name": "John Alan Vargas Castillo",
@@ -6496,7 +10681,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 1590
+      "grandTotal": 1730.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "F-8": {
       "name": "Alex Yana Sullca",
@@ -6568,7 +10813,66 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 510
+      "grandTotal": 510,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "F-9": {
       "name": "Jackeline Aguirre Garcia",
@@ -6803,7 +11107,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 2150
+      "grandTotal": 2430.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 280.0,
+        "totalCuotas": 13
+      }
     },
     "F-10": {
       "name": "Victorio Infantes Elmer",
@@ -7053,7 +11417,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 2240
+      "grandTotal": 2440.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 200.0,
+        "totalCuotas": 13
+      }
     },
     "F-11": {
       "name": "Yeren Rojas Javier Alexander",
@@ -7268,7 +11692,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 2010
+      "grandTotal": 2150.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-1": {
       "name": "Bartolo Armillhuay Katy Carolina",
@@ -7340,7 +11824,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 370
+      "grandTotal": 530.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 160.0,
+        "totalCuotas": 13
+      }
     },
     "G-2": {
       "name": "Rosilda Segura Trujillo",
@@ -7391,7 +11935,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 160
+      "grandTotal": 300.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-3": {
       "name": "Roner Velazques Arteaga",
@@ -7549,7 +12153,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 1020
+      "grandTotal": 1350.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          }
+        ],
+        "totalPendiente": 330.0,
+        "totalCuotas": 13
+      }
     },
     "G-4": {
       "name": "Elias Manuel Silva  Saenz",
@@ -7604,7 +12268,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 150
+      "grandTotal": 290.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-5": {
       "name": "Pablo Gonzáles Abregon",
@@ -7639,7 +12363,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 100
+      "grandTotal": 240.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-6": {
       "name": "Rosales Altamirano Etelvina",
@@ -7668,7 +12452,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 140.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-7": {
       "name": "Leon Pachis Cindy",
@@ -7781,7 +12625,67 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 750
+      "grandTotal": 890.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-8": {
       "name": "Pachis Vara Milagro",
@@ -7858,7 +12762,67 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 340
+      "grandTotal": 400.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          }
+        ],
+        "totalPendiente": 60.0,
+        "totalCuotas": 13
+      }
     },
     "G-9": {
       "name": "Rosales Altamirano Cristina",
@@ -7887,7 +12851,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 0,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "G-10": {
       "name": "José Del Carmen  Rodas Rodas",
@@ -7933,7 +12956,67 @@ const DEBT_DATA = {
           "yearTotal": 30
         }
       },
-      "grandTotal": 130
+      "grandTotal": 190.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          }
+        ],
+        "totalPendiente": 60.0,
+        "totalCuotas": 13
+      }
     },
     "G-11": {
       "name": "Trauco Lopez Nancy Llovany",
@@ -7985,7 +13068,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 300
+      "grandTotal": 440.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-12": {
       "name": "Duberlí Gomez Peña",
@@ -8020,7 +13163,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 100
+      "grandTotal": 130.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 30.0,
+        "totalCuotas": 13
+      }
     },
     "G-13": {
       "name": "Chavez Santos Esther",
@@ -8083,7 +13286,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 330
+      "grandTotal": 470.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-14": {
       "name": "Vigilio Gomez Elinda",
@@ -8203,7 +13466,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 1030
+      "grandTotal": 1170.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "G-15": {
       "name": "Ramos Lujan Sofía Gudelia",
@@ -8417,7 +13740,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 2010
+      "grandTotal": 2250.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 240.0,
+        "totalCuotas": 13
+      }
     },
     "G-16": {
       "name": "Alex Valencia Murayari",
@@ -8479,7 +13862,67 @@ const DEBT_DATA = {
           "yearTotal": 30
         }
       },
-      "grandTotal": 320
+      "grandTotal": 350.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 30.0,
+        "totalCuotas": 13
+      }
     },
     "G-17": {
       "name": "Galo Jose Huaman Osorio",
@@ -8637,7 +14080,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 1340
+      "grandTotal": 1480.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-1": {
       "name": "Clemente CRUZ JUAN",
@@ -8703,7 +14206,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 500
+      "grandTotal": 640.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-2": {
       "name": "Palacios Berrocal Wilder",
@@ -8882,7 +14445,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 1770
+      "grandTotal": 1930.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 160.0,
+        "totalCuotas": 13
+      }
     },
     "H-3": {
       "name": "Huaman Barrientos Neptali",
@@ -8995,7 +14618,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 820
+      "grandTotal": 960.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-4": {
       "name": "Celio Samanez Huerta",
@@ -9158,7 +14841,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 1120
+      "grandTotal": 1330.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 210.0,
+        "totalCuotas": 13
+      }
     },
     "H-5": {
       "name": "Salazar Amao Socrates",
@@ -9337,7 +15080,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 1740
+      "grandTotal": 1750.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 10.0,
+        "totalCuotas": 13
+      }
     },
     "H-6": {
       "name": "Espiritu pizarro Ever Gabriel",
@@ -9372,7 +15175,66 @@ const DEBT_DATA = {
           "yearTotal": 30
         }
       },
-      "grandTotal": 30
+      "grandTotal": 30,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "H-7": {
       "name": "Rojas Vega Elizabeth  Margarita",
@@ -9450,7 +15312,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 370
+      "grandTotal": 510.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-8": {
       "name": "Albino Trujillo Estefania",
@@ -9619,7 +15541,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 1370
+      "grandTotal": 1510.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-9": {
       "name": "Perez Alejos Yamilinda",
@@ -9707,7 +15689,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 640
+      "grandTotal": 680.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          }
+        ],
+        "totalPendiente": 40.0,
+        "totalCuotas": 13
+      }
     },
     "H-10": {
       "name": "Sotelo Julca Tatiana",
@@ -9805,7 +15847,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 1020
+      "grandTotal": 1300.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 280.0,
+        "totalCuotas": 13
+      }
     },
     "H-11": {
       "name": "Mamani Chura Hermelinda",
@@ -9948,7 +16050,67 @@ const DEBT_DATA = {
           "yearTotal": 30
         }
       },
-      "grandTotal": 850
+      "grandTotal": 990.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-12": {
       "name": "Efraín Melchor Solorzano Sifuentes.",
@@ -9999,7 +16161,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 280
+      "grandTotal": 280,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "H-13": {
       "name": "Lopez Herrera Roger",
@@ -10152,7 +16373,66 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 1530
+      "grandTotal": 1530,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "H-14": {
       "name": "Blanco Cardenas Hugo",
@@ -10181,7 +16461,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 140.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-15": {
       "name": "Carrasco Sudario Axell",
@@ -10222,7 +16562,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 130
+      "grandTotal": 270.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-16": {
       "name": "Mendoza Tinoco Orlando",
@@ -10268,7 +16668,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 300
+      "grandTotal": 440.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-17": {
       "name": "Caruajulca Olano Yovany",
@@ -10309,7 +16769,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 200
+      "grandTotal": 340.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-18": {
       "name": "Gonzales Laura Clerith Judith",
@@ -10544,7 +17064,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 2100
+      "grandTotal": 2294.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 194.0,
+        "totalCuotas": 13
+      }
     },
     "H-19": {
       "name": "Rusbel Michel Alcantara Quiroz",
@@ -10672,7 +17252,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 980
+      "grandTotal": 1120.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-20": {
       "name": "Mirtha Anabel Torres Aburto",
@@ -10701,7 +17341,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 50.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 50.0,
+        "totalCuotas": 13
+      }
     },
     "H-21": {
       "name": "Cesar Enrique Abril Tucto",
@@ -10784,7 +17484,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 620
+      "grandTotal": 760.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "H-22": {
       "name": "Torres Aburto Ulises",
@@ -10813,7 +17573,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 0
+      "grandTotal": 140.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "I-1": {
       "name": "Quito Benancio Luz Clarita",
@@ -10952,7 +17772,67 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 1050
+      "grandTotal": 1190.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "I-2": {
       "name": "Simon Huarangoy Ida Dalmira",
@@ -10993,7 +17873,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 60
+      "grandTotal": 324.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 264.0,
+        "totalCuotas": 13
+      }
     },
     "I-3": {
       "name": "Julca Gaspar Fredy David",
@@ -11075,7 +18015,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 650
+      "grandTotal": 670.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "I-4": {
       "name": "Julca Gaspar Lida",
@@ -11183,7 +18183,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 910
+      "grandTotal": 930.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "I-5": {
       "name": "Muñoz Trujillo Gina",
@@ -11438,7 +18498,66 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 2290
+      "grandTotal": 2714.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [],
+        "totalPendiente": 424.0,
+        "totalCuotas": 13
+      }
     },
     "I-6": {
       "name": "Ninahuaman Chuquivilca Jenny",
@@ -11500,7 +18619,66 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 340
+      "grandTotal": 340,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "I-7": {
       "name": "Reyes Fernadez Elida",
@@ -11535,7 +18713,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 30
+      "grandTotal": 170.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "I-8": {
       "name": "Crisostomo Sifuentes Adilio",
@@ -11597,7 +18835,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 200
+      "grandTotal": 360.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 160.0,
+        "totalCuotas": 13
+      }
     },
     "I-9": {
       "name": "Tucto Justo Dumer",
@@ -11655,7 +18953,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 330
+      "grandTotal": 470.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "I-10": {
       "name": "Castañeda Beraun Aurelia",
@@ -11690,7 +19048,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 30
+      "grandTotal": 90.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          }
+        ],
+        "totalPendiente": 60.0,
+        "totalCuotas": 13
+      }
     },
     "I-11": {
       "name": "Acho Velasquez Lady Diana",
@@ -11742,7 +19160,66 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 230
+      "grandTotal": 230,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "I-12": {
       "name": "Cadillo Aranda Felicitas Elizabeth",
@@ -11795,7 +19272,67 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 160
+      "grandTotal": 300.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "I-13": {
       "name": "Julca Bruno Miguel",
@@ -11907,7 +19444,66 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 910
+      "grandTotal": 910,
+      "aportes": {
+        "pendientes": [],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 0,
+        "totalCuotas": 13
+      }
     },
     "I-14": {
       "name": "Gomez Morales Orlando",
@@ -12035,7 +19631,67 @@ const DEBT_DATA = {
           "yearTotal": 300
         }
       },
-      "grandTotal": 1260
+      "grandTotal": 1480.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 220.0,
+        "totalCuotas": 13
+      }
     },
     "I-15": {
       "name": "Peña Rubina Javier",
@@ -12091,7 +19747,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 300
+      "grandTotal": 440.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "I-16": {
       "name": "Quiñones Alejos Marco Antonio",
@@ -12275,7 +19991,67 @@ const DEBT_DATA = {
           "yearTotal": 200
         }
       },
-      "grandTotal": 1630
+      "grandTotal": 1660.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 30.0,
+        "totalCuotas": 13
+      }
     },
     "I-17": {
       "name": "Castillo Beltran Manuel",
@@ -12384,7 +20160,67 @@ const DEBT_DATA = {
           "yearTotal": 100
         }
       },
-      "grandTotal": 740
+      "grandTotal": 760.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "totalPendiente": 20.0,
+        "totalCuotas": 13
+      }
     },
     "I-18": {
       "name": "Garibay Lizarbe Cornelio Claudio",
@@ -12639,7 +20475,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 2290
+      "grandTotal": 2490.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          }
+        ],
+        "totalPendiente": 200.0,
+        "totalCuotas": 13
+      }
     },
     "I-19": {
       "name": "Susana Durand Torres",
@@ -12779,7 +20675,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 1440
+      "grandTotal": 1580.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          }
+        ],
+        "totalPendiente": 140.0,
+        "totalCuotas": 13
+      }
     },
     "I-20": {
       "name": "Mejia Vargas Grisepi",
@@ -13024,7 +20980,67 @@ const DEBT_DATA = {
           "yearTotal": 330
         }
       },
-      "grandTotal": 2230
+      "grandTotal": 2390.0,
+      "aportes": {
+        "pendientes": [
+          {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
+          }
+        ],
+        "pagadas": [
+          {
+            "name": "CERCO PERIMÉTRICO S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "CARRETERA LA GRAMA  S/. 10.00",
+            "monto": 10.0
+          },
+          {
+            "name": "REPLANTERO S/. 70.00",
+            "monto": 70.0
+          },
+          {
+            "name": "TELEVISOR S/. 4.00",
+            "monto": 4.0
+          },
+          {
+            "name": "CUOTA PARA EL MURO  DE CONTENSIÓN S/.80.00",
+            "monto": 80.0
+          },
+          {
+            "name": "UOTA PARA EL MURO  DE CONTENSIÓN S/.50.00",
+            "monto": 50.0
+          },
+          {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          }
+        ],
+        "totalPendiente": 160.0,
+        "totalCuotas": 13
+      }
     }
   }
 };
