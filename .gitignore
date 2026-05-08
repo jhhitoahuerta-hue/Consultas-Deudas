@@ -1,0 +1,10 @@
+# No subir el Excel original (datos sensibles)
+VS.xlsx
+*.xlsx
+
+# Script de generación (solo necesario localmente)
+generate_data.py
+
+# Python
+__pycache__/
+*.pyc

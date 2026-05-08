@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Deudas - Asociación</title>
+    <meta name="description" content="Consulta tu estado de deuda por manzana y lote. Faenas y reuniones 2024-2026.">
+    <meta property="og:title" content="Consulta de Deudas - Asociación">
+    <meta property="og:description" content="Consulta tu estado de deuda por manzana y lote">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-primary: #0a0a1a;
+            --bg-secondary: #111128;
+            --bg-card: rgba(255,255,255,0.04);
+            --bg-card-hover: rgba(255,255,255,0.07);
+            --border: rgba(255,255,255,0.08);
+            --border-light: rgba(255,255,255,0.12);
+            --text-primary: #e8ecf4;
+            --text-secondary: #8b95a8;
+            --text-muted: #5a6478;
+            --accent: #00d4aa;
+            --accent-glow: rgba(0,212,170,0.15);
+            --accent-dark: #00a888;
+            --warning: #f5a623;
+            --warning-glow: rgba(245,166,35,0.12);
+            --danger: #ef4444;
+            --danger-glow: rgba(239,68,68,0.12);
+            --success: #22c55e;
+            --success-glow: rgba(34,197,94,0.12);
+            --radius: 16px;
+            --radius-sm: 10px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated background */
+        .bg-glow {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; pointer-events: none;
+            background:
+                radial-gradient(ellipse 600px 400px at 20% 10%, rgba(0,212,170,0.06), transparent),
+                radial-gradient(ellipse 500px 500px at 80% 80%, rgba(99,102,241,0.05), transparent);
+        }
+
+        .container {
+            position: relative; z-index: 1;
+            max-width: 520px; margin: 0 auto;
+            padding: 20px 16px 40px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 28px 0 24px;
+        }
+        .header-icon {
+            width: 64px; height: 64px;
+            background: linear-gradient(135deg, var(--accent), #6366f1);
+            border-radius: 18px;
+            display: inline-flex; align-items: center; justify-content: center;
+            font-size: 30px;
+            margin-bottom: 16px;
+            box-shadow: 0 8px 32px rgba(0,212,170,0.2);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
+        }
+        .header h1 {
+            font-size: 22px; font-weight: 700;
+            background: linear-gradient(135deg, #fff, var(--text-secondary));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            letter-spacing: -0.3px;
+        }
+        .header p {
+            color: var(--text-secondary); font-size: 13px; margin-top: 6px;
+        }
+
+        /* Search Card */
+        .search-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            backdrop-filter: blur(20px);
+            margin-bottom: 20px;
+        }
+        .search-card h2 {
+            font-size: 14px; font-weight: 600; color: var(--text-secondary);
+            text-transform: uppercase; letter-spacing: 1px;
+            margin-bottom: 18px;
+        }
+        .search-row {
+            display: flex; gap: 12px; margin-bottom: 16px;
+        }
+        .field {
+            flex: 1; display: flex; flex-direction: column; gap: 6px;
+        }
+        .field label {
+            font-size: 12px; font-weight: 500; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.5px;
+        }
+        .field select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-family: inherit; font-size: 16px; font-weight: 600;
+            padding: 14px 16px;
+            appearance: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238b95a8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 14px center;
+        }
+        .field select:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+        .btn-search {
+            width: 100%;
+            background: linear-gradient(135deg, var(--accent), #6366f1);
+            border: none; border-radius: var(--radius-sm);
+            color: #fff; font-family: inherit;
+            font-size: 15px; font-weight: 600;
+            padding: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+            letter-spacing: 0.3px;
+        }
+        .btn-search:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 24px rgba(0,212,170,0.3);
+        }
+        .btn-search:active { transform: translateY(0); }
+
+        /* Results */
+        .results { display: none; }
+        .results.show { display: block; animation: slideUp 0.4s ease; }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Associate Info */
+        .associate-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+        .associate-name {
+            font-size: 18px; font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .associate-lot {
+            font-size: 13px; color: var(--text-secondary);
+        }
+        .associate-lot span {
+            background: var(--accent-glow);
+            color: var(--accent);
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 12px;
+            margin-left: 4px;
+        }
+
+        /* Year Card */
+        .year-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            margin-bottom: 12px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        .year-card:hover { border-color: var(--border-light); }
+        .year-header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 18px 20px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .year-title {
+            font-size: 16px; font-weight: 700;
+            display: flex; align-items: center; gap: 10px;
+        }
+        .year-title .badge {
+            font-size: 11px; font-weight: 600;
+            padding: 3px 10px; border-radius: 20px;
+        }
+        .badge-danger { background: var(--danger-glow); color: var(--danger); }
+        .badge-warning { background: var(--warning-glow); color: var(--warning); }
+        .badge-success { background: var(--success-glow); color: var(--success); }
+        .year-amount {
+            font-size: 18px; font-weight: 800;
+            font-variant-numeric: tabular-nums;
+        }
+        .year-amount.zero { color: var(--success); }
+        .year-amount.low { color: var(--warning); }
+        .year-amount.high { color: var(--danger); }
+
+        .year-body {
+            max-height: 0; overflow: hidden;
+            transition: max-height 0.35s ease;
+        }
+        .year-card.open .year-body { max-height: 800px; }
+        .year-content {
+            padding: 0 20px 18px;
+            border-top: 1px solid var(--border);
+        }
+
+        .debt-row {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+        }
+        .debt-row:last-child { border-bottom: none; }
+        .debt-label {
+            display: flex; align-items: center; gap: 8px;
+            font-size: 14px; color: var(--text-secondary);
+        }
+        .debt-label .icon { font-size: 16px; }
+        .debt-count {
+            font-size: 12px; color: var(--text-muted);
+            background: rgba(255,255,255,0.04);
+            padding: 2px 8px; border-radius: 12px;
+        }
+        .debt-value {
+            font-size: 14px; font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Detail dates */
+        .detail-toggle {
+            display: inline-flex; align-items: center; gap: 4px;
+            font-size: 12px; color: var(--accent);
+            cursor: pointer; padding: 4px 0;
+            border: none; background: none;
+            font-family: inherit; font-weight: 500;
+        }
+        .detail-toggle:hover { text-decoration: underline; }
+        .detail-dates {
+            display: none; padding: 8px 0 4px 28px;
+        }
+        .detail-dates.show { display: block; }
+        .detail-dates .date-item {
+            font-size: 12px; color: var(--text-muted);
+            padding: 3px 0;
+            display: flex; justify-content: space-between;
+        }
+        .detail-dates .date-item .cost {
+            color: var(--text-secondary); font-weight: 500;
+        }
+
+        /* Grand Total */
+        .grand-total {
+            background: linear-gradient(135deg, rgba(0,212,170,0.08), rgba(99,102,241,0.08));
+            border: 1px solid rgba(0,212,170,0.2);
+            border-radius: var(--radius);
+            padding: 24px;
+            text-align: center;
+            margin-top: 8px;
+        }
+        .grand-total-label {
+            font-size: 12px; font-weight: 600; color: var(--text-secondary);
+            text-transform: uppercase; letter-spacing: 1.5px;
+            margin-bottom: 8px;
+        }
+        .grand-total-value {
+            font-size: 36px; font-weight: 800;
+            letter-spacing: -1px;
+        }
+        .grand-total-value.zero { color: var(--success); }
+        .grand-total-value.has-debt { color: var(--danger); }
+        .grand-total-note {
+            font-size: 11px; color: var(--text-muted); margin-top: 8px;
+        }
+
+        /* No debt */
+        .no-debt-msg {
+            text-align: center; padding: 40px 20px;
+        }
+        .no-debt-msg .icon { font-size: 48px; margin-bottom: 12px; }
+        .no-debt-msg h3 { font-size: 18px; color: var(--success); margin-bottom: 6px; }
+        .no-debt-msg p { color: var(--text-secondary); font-size: 13px; }
+
+        /* Footer */
+        .footer {
+            text-align: center; padding: 32px 0 16px;
+            color: var(--text-muted); font-size: 11px;
+        }
+
+        /* Chevron */
+        .chevron {
+            display: inline-block; transition: transform 0.3s;
+            color: var(--text-muted); font-size: 12px;
+        }
+        .year-card.open .chevron { transform: rotate(180deg); }
+
+        /* Rates info */
+        .rates-info {
+            background: rgba(99,102,241,0.06);
+            border: 1px solid rgba(99,102,241,0.12);
+            border-radius: var(--radius-sm);
+            padding: 14px 16px;
+            margin-top: 16px; font-size: 12px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .rates-info strong { color: var(--text-primary); }
+
+        /* Pulse animation for search */
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(0,212,170,0.3); }
+            70% { box-shadow: 0 0 0 10px rgba(0,212,170,0); }
+            100% { box-shadow: 0 0 0 0 rgba(0,212,170,0); }
+        }
+        .btn-search.pulse { animation: pulse 1.5s ease-in-out 1; }
+    </style>
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-icon">🏘️</div>
+            <h1>Consulta de Deudas</h1>
+            <p>Selecciona tu manzana y lote para ver tu estado</p>
+        </div>
+
+        <!-- Search -->
+        <div class="search-card">
+            <h2>🔍 Buscar por lote</h2>
+            <div class="search-row">
+                <div class="field">
+                    <label>Manzana</label>
+                    <select id="selectMZ">
+                        <option value="">MZ</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Lote</label>
+                    <select id="selectLT" disabled>
+                        <option value="">LT</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn-search" id="btnSearch" disabled onclick="searchDebt()">
+                Consultar Deuda
+            </button>
+            <div class="rates-info">
+                📄 <strong>Tarifas:</strong><br>
+                ⛏️ Faenas antes de 07/09/2025 = <strong>S/.50</strong><br>
+                ⛏️ Faenas desde 07/09/2025 = <strong>S/.100</strong><br>
+                📋 Reuniones = <strong>S/.30</strong>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div class="results" id="results"></div>
+
+        <!-- Footer -->
+        <div class="footer" id="footer"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        // --- INITIALIZATION ---
+        const selectMZ = document.getElementById('selectMZ');
+        const selectLT = document.getElementById('selectLT');
+        const btnSearch = document.getElementById('btnSearch');
+        const resultsDiv = document.getElementById('results');
+        const footerDiv = document.getElementById('footer');
+
+        function init() {
+            if (typeof DEBT_DATA === 'undefined') {
+                resultsDiv.innerHTML = '<p style="color:var(--danger);text-align:center;padding:20px;">Error: No se encontró data.js</p>';
+                resultsDiv.classList.add('show');
+                return;
+            }
+            // Populate manzanas
+            const mzKeys = Object.keys(DEBT_DATA.manzanas).sort();
+            mzKeys.forEach(mz => {
+                const opt = document.createElement('option');
+                opt.value = mz; opt.textContent = 'Manzana ' + mz;
+                selectMZ.appendChild(opt);
+            });
+
+            selectMZ.addEventListener('change', onMZChange);
+            selectLT.addEventListener('change', onLTChange);
+            footerDiv.textContent = 'Actualizado: ' + DEBT_DATA.generated;
+        }
+
+        function onMZChange() {
+            const mz = selectMZ.value;
+            selectLT.innerHTML = '<option value="">LT</option>';
+            btnSearch.disabled = true;
+
+            if (!mz) { selectLT.disabled = true; return; }
+
+            selectLT.disabled = false;
+            const lots = DEBT_DATA.manzanas[mz] || [];
+            lots.forEach(lt => {
+                const opt = document.createElement('option');
+                opt.value = lt; opt.textContent = 'Lote ' + lt;
+                selectLT.appendChild(opt);
+            });
+        }
+
+        function onLTChange() {
+            btnSearch.disabled = !selectLT.value;
+            if (selectLT.value) {
+                btnSearch.classList.add('pulse');
+                setTimeout(() => btnSearch.classList.remove('pulse'), 1500);
+            }
+        }
+
+        function formatMoney(amount) {
+            return 'S/. ' + amount.toLocaleString('es-PE');
+        }
+
+        function getAmountClass(amount) {
+            if (amount === 0) return 'zero';
+            if (amount <= 200) return 'low';
+            return 'high';
+        }
+
+        function getBadge(amount) {
+            if (amount === 0) return '<span class="badge badge-success">AL DÍA</span>';
+            if (amount <= 200) return '<span class="badge badge-warning">PENDIENTE</span>';
+            return '<span class="badge badge-danger">DEUDA</span>';
+        }
+
+        function searchDebt() {
+            const mz = selectMZ.value;
+            const lt = selectLT.value;
+            if (!mz || !lt) return;
+
+            const key = mz + '-' + lt;
+            const assoc = DEBT_DATA.associates[key];
+
+            if (!assoc) {
+                resultsDiv.innerHTML = '<div class="associate-card"><p style="text-align:center;color:var(--text-secondary);">No se encontró información para MZ ' + mz + ' LT ' + lt + '</p></div>';
+                resultsDiv.classList.add('show');
+                return;
+            }
+
+            let html = '';
+
+            // Associate info
+            html += '<div class="associate-card">';
+            html += '<div class="associate-name">👤 ' + escapeHtml(assoc.name) + '</div>';
+            html += '<div class="associate-lot">📍 Manzana ' + assoc.mz + ' - Lote ' + assoc.lt + ' <span>MZ ' + assoc.mz + ' LT ' + assoc.lt + '</span></div>';
+            html += '</div>';
+
+            if (assoc.grandTotal === 0) {
+                html += '<div class="no-debt-msg">';
+                html += '<div class="icon">🎉</div>';
+                html += '<h3>¡Sin deudas pendientes!</h3>';
+                html += '<p>Estás al día en faenas y reuniones (2024-2026)</p>';
+                html += '</div>';
+            } else {
+                // Year cards
+                ['2024', '2025', '2026'].forEach(year => {
+                    const yd = assoc.years[year];
+                    if (!yd) return;
+                    const yearId = 'year-' + year;
+
+                    html += '<div class="year-card" id="' + yearId + '">';
+                    html += '<div class="year-header" onclick="toggleYear(\'' + yearId + '\')">';
+                    html += '<div class="year-title">📅 ' + year + ' ' + getBadge(yd.yearTotal) + '</div>';
+                    html += '<div style="display:flex;align-items:center;gap:8px;">';
+                    html += '<span class="year-amount ' + getAmountClass(yd.yearTotal) + '">' + formatMoney(yd.yearTotal) + '</span>';
+                    html += '<span class="chevron">▼</span>';
+                    html += '</div></div>';
+
+                    html += '<div class="year-body"><div class="year-content">';
+
+                    // Faenas
+                    if (yd.faenas.length > 0) {
+                        html += '<div class="debt-row">';
+                        html += '<div class="debt-label"><span class="icon">⛏️</span> Faenas <span class="debt-count">' + yd.faenas.length + ' falta' + (yd.faenas.length > 1 ? 's' : '') + '</span></div>';
+                        html += '<div class="debt-value" style="color:var(--danger);">' + formatMoney(yd.faenasTotal) + '</div>';
+                        html += '</div>';
+                        const faenaDetailId = 'fd-' + year;
+                        html += '<button class="detail-toggle" onclick="toggleDetail(\'' + faenaDetailId + '\')">▸ Ver fechas</button>';
+                        html += '<div class="detail-dates" id="' + faenaDetailId + '">';
+                        yd.faenas.forEach(f => {
+                            html += '<div class="date-item"><span>• ' + f.date + (f.group ? ' (' + f.group + ')' : '') + '</span><span class="cost">' + formatMoney(f.cost) + '</span></div>';
+                        });
+                        html += '</div>';
+                    } else {
+                        html += '<div class="debt-row">';
+                        html += '<div class="debt-label"><span class="icon">⛏️</span> Faenas</div>';
+                        html += '<div class="debt-value" style="color:var(--success);">Sin faltas ✓</div>';
+                        html += '</div>';
+                    }
+
+                    // Reuniones
+                    if (yd.reuniones.length > 0) {
+                        html += '<div class="debt-row">';
+                        html += '<div class="debt-label"><span class="icon">📋</span> Reuniones <span class="debt-count">' + yd.reuniones.length + ' falta' + (yd.reuniones.length > 1 ? 's' : '') + '</span></div>';
+                        html += '<div class="debt-value" style="color:var(--danger);">' + formatMoney(yd.reunionesTotal) + '</div>';
+                        html += '</div>';
+                        const reunionDetailId = 'rd-' + year;
+                        html += '<button class="detail-toggle" onclick="toggleDetail(\'' + reunionDetailId + '\')">▸ Ver fechas</button>';
+                        html += '<div class="detail-dates" id="' + reunionDetailId + '">';
+                        yd.reuniones.forEach(r => {
+                            html += '<div class="date-item"><span>• ' + r.date + '</span><span class="cost">' + formatMoney(r.cost) + '</span></div>';
+                        });
+                        html += '</div>';
+                    } else {
+                        html += '<div class="debt-row">';
+                        html += '<div class="debt-label"><span class="icon">📋</span> Reuniones</div>';
+                        html += '<div class="debt-value" style="color:var(--success);">Sin faltas ✓</div>';
+                        html += '</div>';
+                    }
+
+                    html += '</div></div></div>';
+                });
+
+                // Grand total
+                html += '<div class="grand-total">';
+                html += '<div class="grand-total-label">💰 Deuda Total Acumulada</div>';
+                html += '<div class="grand-total-value ' + (assoc.grandTotal > 0 ? 'has-debt' : 'zero') + '">' + formatMoney(assoc.grandTotal) + '</div>';
+                html += '<div class="grand-total-note">Incluye faenas y reuniones 2024 - 2026</div>';
+                html += '</div>';
+            }
+
+            resultsDiv.innerHTML = html;
+            resultsDiv.classList.add('show');
+            resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function toggleYear(id) {
+            document.getElementById(id).classList.toggle('open');
+        }
+
+        function toggleDetail(id) {
+            const el = document.getElementById(id);
+            el.classList.toggle('show');
+            const btn = el.previousElementSibling;
+            btn.textContent = el.classList.contains('show') ? '▾ Ocultar fechas' : '▸ Ver fechas';
+        }
+
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        init();
+    </script>
+</body>
+</html>
