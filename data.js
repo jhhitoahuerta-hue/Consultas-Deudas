@@ -1,7 +1,7 @@
 // Auto-generado por generate_data.py - NO EDITAR
-// Fecha: 27/05/2026 21:52
+// Fecha: 27/05/2026 21:55
 const DEBT_DATA = {
-  "generated": "27/05/2026 21:52",
+  "generated": "27/05/2026 21:55",
   "config": {
     "faenaCostBefore": 50,
     "faenaCostAfter": 100,
