@@ -1,7 +1,7 @@
 // Auto-generado por generate_data.py - NO EDITAR
-// Fecha: 28/05/2026 23:24
+// Fecha: 28/05/2026 23:37
 const DEBT_DATA = {
-  "generated": "28/05/2026 23:24",
+  "generated": "28/05/2026 23:37",
   "config": {
     "faenaCostBefore": 50,
     "faenaCostAfter": 100,
@@ -7884,19 +7884,13 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "27/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 610.0,
+      "grandTotal": 580.0,
       "aportes": {
         "pendientes": [
           {
