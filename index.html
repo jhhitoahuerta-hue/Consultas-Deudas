@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de Deudas - Asociación</title>
-    <meta name="description" content="Consulta tu estado de deuda por manzana y lote. Faenas y reuniones 2024-2026.">
+    <meta name="description" content="Consulta tu estado de deuda por manzana y lote. Faenas y reuniones 2022-2026.">
     <meta property="og:title" content="Consulta de Deudas - Asociación">
     <meta property="og:description" content="Consulta tu estado de deuda por manzana y lote">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -559,14 +559,27 @@
                 html += '<div class="section-divider">Faltas a Faenas y Reuniones</div>';
 
                 // Year cards
-                ['2024', '2025', '2026'].forEach(year => {
+                const yearsList = Object.keys(assoc.years).sort();
+                yearsList.forEach(year => {
                     const yd = assoc.years[year];
                     if (!yd) return;
                     const yearId = 'year-' + year;
 
+                    // Get scheduled events info for this year
+                    let eventInfo = '';
+                    if (typeof DEBT_DATA !== 'undefined' && DEBT_DATA.events && DEBT_DATA.events[year]) {
+                        const ev = DEBT_DATA.events[year];
+                        const parts = [];
+                        if (ev.faenas) parts.push(ev.faenas + ' faena' + (ev.faenas > 1 ? 's' : ''));
+                        if (ev.reuniones) parts.push(ev.reuniones + ' reunión' + (ev.reuniones > 1 ? 'es' : ''));
+                        if (parts.length > 0) {
+                            eventInfo = ' <span style="font-size:11px;color:var(--text-muted);font-weight:normal;margin-left:4px;">(' + parts.join(', ') + ')</span>';
+                        }
+                    }
+
                     html += '<div class="year-card" id="' + yearId + '">';
                     html += '<div class="year-header" onclick="toggleYear(\'' + yearId + '\')">'; 
-                    html += '<div class="year-title">📅 ' + year + ' ' + getBadge(yd.yearTotal) + '</div>';
+                    html += '<div class="year-title">📅 ' + year + eventInfo + ' ' + getBadge(yd.yearTotal) + '</div>';
                     html += '<div style="display:flex;align-items:center;gap:8px;">';
                     html += '<span class="year-amount ' + getAmountClass(yd.yearTotal) + '">' + formatMoney(yd.yearTotal) + '</span>';
                     html += '<span class="chevron">▼</span>';
@@ -576,8 +589,21 @@
 
                     // Faenas
                     if (yd.faenas.length > 0) {
+                        let count50 = 0;
+                        let count100 = 0;
+                        yd.faenas.forEach(f => {
+                            if (f.cost === 50) count50++;
+                            else if (f.cost === 100) count100++;
+                        });
+                        let faenaLabel = 'Faenas <span class="debt-count">' + yd.faenas.length + ' falta' + (yd.faenas.length > 1 ? 's' : '') + '</span>';
+                        if (count50 > 0 || count100 > 0) {
+                            let parts = [];
+                            if (count50 > 0) parts.push(count50 + ' de S/.50');
+                            if (count100 > 0) parts.push(count100 + ' de S/.100');
+                            faenaLabel += ' <span style="font-size:11px;color:var(--text-muted);font-weight:normal;">(' + parts.join(', ') + ')</span>';
+                        }
                         html += '<div class="debt-row">';
-                        html += '<div class="debt-label"><span class="icon">⛏️</span> Faenas <span class="debt-count">' + yd.faenas.length + ' falta' + (yd.faenas.length > 1 ? 's' : '') + '</span></div>';
+                        html += '<div class="debt-label"><span class="icon">⛏️</span> ' + faenaLabel + '</div>';
                         html += '<div class="debt-value" style="color:var(--danger);">' + formatMoney(yd.faenasTotal) + '</div>';
                         html += '</div>';
                         const faenaDetailId = 'fd-' + year;
@@ -613,6 +639,8 @@
                         html += '<div class="debt-value" style="color:var(--success);">Sin faltas ✓</div>';
                         html += '</div>';
                     }
+
+
 
                     html += '</div></div></div>';
                 });
@@ -676,7 +704,7 @@
                 html += '<div class="grand-total">';
                 html += '<div class="grand-total-label">💰 Deuda Total Acumulada</div>';
                 html += '<div class="grand-total-value ' + (assoc.grandTotal > 0 ? 'has-debt' : 'zero') + '">' + formatMoney(assoc.grandTotal) + '</div>';
-                html += '<div class="grand-total-note">Incluye faltas (2024-2026) + cuotas pendientes</div>';
+                html += '<div class="grand-total-note">Incluye faltas (2022-2026) + cuotas pendientes</div>';
                 html += '</div>';
             }
 
