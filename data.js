@@ -1,7 +1,7 @@
 // Auto-generado por generate_data.py - NO EDITAR
-// Fecha: 04/06/2026 21:15
+// Fecha: 05/06/2026 21:52
 const DEBT_DATA = {
-  "generated": "04/06/2026 21:15",
+  "generated": "05/06/2026 21:52",
   "config": {
     "faenaCostBefore": 50,
     "faenaCostAfter": 100,
@@ -4042,11 +4042,6 @@ const DEBT_DATA = {
               "date": "09/02/2025",
               "cost": 50,
               "group": "A,B,C"
-            },
-            {
-              "date": "16/11/2025",
-              "cost": 100,
-              "group": "A,B,C,D,E"
             }
           ],
           "reuniones": [
@@ -4056,9 +4051,9 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 150,
+          "faenasTotal": 50,
           "reunionesTotal": 30,
-          "yearTotal": 180
+          "yearTotal": 80
         },
         "2026": {
           "faenas": [],
@@ -4068,7 +4063,7 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 200.0,
+      "grandTotal": 100.0,
       "aportes": {
         "pendientes": [
           {
@@ -6792,21 +6787,10 @@ const DEBT_DATA = {
       "years": {
         "2022": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "24/04/2022",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "29/05/2022",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 60,
-          "yearTotal": 60
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2023": {
           "faenas": [],
@@ -6853,7 +6837,7 @@ const DEBT_DATA = {
           "yearTotal": 90
         }
       },
-      "grandTotal": 430.0,
+      "grandTotal": 370.0,
       "aportes": {
         "pendientes": [
           {
@@ -6921,53 +6905,17 @@ const DEBT_DATA = {
       "lt": "16",
       "years": {
         "2022": {
-          "faenas": [
-            {
-              "date": "25/09/2022",
-              "cost": 50,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "23/10/2022",
-              "cost": 50,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "13/11/2022",
-              "cost": 50,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "11/12/2022",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [
-            {
-              "date": "20/03/2022",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
             {
               "date": "12/06/2022",
               "cost": 30,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "09/10/2022",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "27/11/2022",
-              "cost": 30,
-              "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 200,
-          "reunionesTotal": 120,
-          "yearTotal": 320
+          "faenasTotal": 0,
+          "reunionesTotal": 30,
+          "yearTotal": 30
         },
         "2023": {
           "faenas": [],
@@ -7025,7 +6973,7 @@ const DEBT_DATA = {
           "yearTotal": 90
         }
       },
-      "grandTotal": 890.0,
+      "grandTotal": 600.0,
       "aportes": {
         "pendientes": [
           {
