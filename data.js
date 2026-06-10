@@ -1,7 +1,7 @@
 // Auto-generado por generate_data.py - NO EDITAR
-// Fecha: 09/06/2026 21:24
+// Fecha: 09/06/2026 22:35
 const DEBT_DATA = {
-  "generated": "09/06/2026 21:24",
+  "generated": "09/06/2026 22:35",
   "config": {
     "faenaCostBefore": 50,
     "faenaCostAfter": 100,
@@ -7454,7 +7454,7 @@ const DEBT_DATA = {
       }
     },
     "D-21": {
-      "name": "Albino Trujillo Estefania",
+      "name": "Dafne Kathleen Hidalgo Leandro",
       "mz": "D",
       "lt": "21",
       "years": {
