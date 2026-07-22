@@ -1,7 +1,7 @@
 // Auto-generado por generate_data.py - NO EDITAR
-// Fecha: 16/07/2026 21:45
+// Fecha: 21/07/2026 23:25
 const DEBT_DATA = {
-  "generated": "16/07/2026 21:45",
+  "generated": "21/07/2026 23:25",
   "config": {
     "faenaCostBefore": 50,
     "faenaCostAfter": 100,
@@ -273,19 +273,14 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "21/06/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 30,
+      "grandTotal": 0,
+      "control_row": 7,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -381,19 +376,14 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "21/06/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 30,
+      "grandTotal": 0,
+      "control_row": 8,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -513,6 +503,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 160.0,
+      "control_row": 9,
       "aportes": {
         "pendientes": [
           {
@@ -834,19 +825,15 @@ const DEBT_DATA = {
               "date": "31/05/2026",
               "cost": 30,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "21/06/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
             }
           ],
           "faenasTotal": 200,
-          "reunionesTotal": 180,
-          "yearTotal": 380
+          "reunionesTotal": 150,
+          "yearTotal": 350
         }
       },
-      "grandTotal": 2610.0,
+      "grandTotal": 2580.0,
+      "control_row": 10,
       "aportes": {
         "pendientes": [
           {
@@ -960,19 +947,14 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "21/06/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 400.0,
+      "grandTotal": 370.0,
+      "control_row": 11,
       "aportes": {
         "pendientes": [
           {
@@ -1069,19 +1051,14 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "21/06/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 30,
+      "grandTotal": 0,
+      "control_row": 12,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -1205,19 +1182,15 @@ const DEBT_DATA = {
               "date": "01/03/2026",
               "cost": 30,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "21/06/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
             }
           ],
           "faenasTotal": 0,
-          "reunionesTotal": 60,
-          "yearTotal": 60
+          "reunionesTotal": 30,
+          "yearTotal": 30
         }
       },
-      "grandTotal": 240.0,
+      "grandTotal": 210.0,
+      "control_row": 13,
       "aportes": {
         "pendientes": [
           {
@@ -1321,6 +1294,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 14,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -1445,6 +1419,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 320.0,
+      "control_row": 15,
       "aportes": {
         "pendientes": [
           {
@@ -1842,6 +1817,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3060.0,
+      "control_row": 16,
       "aportes": {
         "pendientes": [
           {
@@ -1945,6 +1921,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 284.0,
+      "control_row": 17,
       "aportes": {
         "pendientes": [
           {
@@ -2077,6 +2054,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 400.0,
+      "control_row": 18,
       "aportes": {
         "pendientes": [
           {
@@ -2260,6 +2238,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 960.0,
+      "control_row": 19,
       "aportes": {
         "pendientes": [
           {
@@ -2417,6 +2396,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 530.0,
+      "control_row": 20,
       "aportes": {
         "pendientes": [
           {
@@ -2520,6 +2500,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 21,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -2703,6 +2684,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 940.0,
+      "control_row": 22,
       "aportes": {
         "pendientes": [
           {
@@ -2806,6 +2788,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 23,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -2908,6 +2891,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 30.0,
+      "control_row": 24,
       "aportes": {
         "pendientes": [
           {
@@ -3189,6 +3173,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 2054.0,
+      "control_row": 25,
       "aportes": {
         "pendientes": [
           {
@@ -3304,6 +3289,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 100.0,
+      "control_row": 26,
       "aportes": {
         "pendientes": [
           {
@@ -3413,6 +3399,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 30,
+      "control_row": 27,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -3521,6 +3508,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 170.0,
+      "control_row": 28,
       "aportes": {
         "pendientes": [
           {
@@ -3624,6 +3612,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 29,
       "aportes": {
         "pendientes": [
           {
@@ -3745,6 +3734,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 220.0,
+      "control_row": 30,
       "aportes": {
         "pendientes": [
           {
@@ -3854,6 +3844,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 50.0,
+      "control_row": 31,
       "aportes": {
         "pendientes": [
           {
@@ -3957,6 +3948,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 32,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -4081,6 +4073,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 280.0,
+      "control_row": 33,
       "aportes": {
         "pendientes": [
           {
@@ -4207,6 +4200,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 280.0,
+      "control_row": 34,
       "aportes": {
         "pendientes": [
           {
@@ -4343,6 +4337,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 504.0,
+      "control_row": 35,
       "aportes": {
         "pendientes": [
           {
@@ -4446,6 +4441,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 36,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -4548,6 +4544,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 424.0,
+      "control_row": 37,
       "aportes": {
         "pendientes": [
           {
@@ -4650,6 +4647,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 170.0,
+      "control_row": 38,
       "aportes": {
         "pendientes": [
           {
@@ -4793,6 +4791,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 380.0,
+      "control_row": 39,
       "aportes": {
         "pendientes": [
           {
@@ -4914,6 +4913,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 300.0,
+      "control_row": 40,
       "aportes": {
         "pendientes": [
           {
@@ -5017,6 +5017,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 40.0,
+      "control_row": 41,
       "aportes": {
         "pendientes": [
           {
@@ -5120,6 +5121,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 42,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -5234,6 +5236,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 270.0,
+      "control_row": 43,
       "aportes": {
         "pendientes": [
           {
@@ -5504,6 +5507,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1220,
+      "control_row": 44,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -5721,6 +5725,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1330.0,
+      "control_row": 45,
       "aportes": {
         "pendientes": [
           {
@@ -5824,6 +5829,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 424.0,
+      "control_row": 46,
       "aportes": {
         "pendientes": [
           {
@@ -5942,6 +5948,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 370.0,
+      "control_row": 47,
       "aportes": {
         "pendientes": [
           {
@@ -6078,6 +6085,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 320,
+      "control_row": 48,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -6186,6 +6194,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 110.0,
+      "control_row": 49,
       "aportes": {
         "pendientes": [
           {
@@ -6295,6 +6304,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 170.0,
+      "control_row": 50,
       "aportes": {
         "pendientes": [
           {
@@ -6410,6 +6420,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 220.0,
+      "control_row": 51,
       "aportes": {
         "pendientes": [
           {
@@ -6535,6 +6546,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 470.0,
+      "control_row": 52,
       "aportes": {
         "pendientes": [
           {
@@ -6761,6 +6773,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1140.0,
+      "control_row": 53,
       "aportes": {
         "pendientes": [
           {
@@ -6882,6 +6895,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 250.0,
+      "control_row": 54,
       "aportes": {
         "pendientes": [
           {
@@ -7022,6 +7036,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 340,
+      "control_row": 55,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -7172,6 +7187,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 470.0,
+      "control_row": 56,
       "aportes": {
         "pendientes": [
           {
@@ -7665,6 +7681,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3940.0,
+      "control_row": 57,
       "aportes": {
         "pendientes": [
           {
@@ -7820,6 +7837,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 580.0,
+      "control_row": 58,
       "aportes": {
         "pendientes": [
           {
@@ -7923,6 +7941,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 59,
       "aportes": {
         "pendientes": [
           {
@@ -8026,6 +8045,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 60,
       "aportes": {
         "pendientes": [
           {
@@ -8273,6 +8293,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1384.0,
+      "control_row": 61,
       "aportes": {
         "pendientes": [
           {
@@ -8376,6 +8397,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 20.0,
+      "control_row": 62,
       "aportes": {
         "pendientes": [
           {
@@ -8670,6 +8692,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 2320.0,
+      "control_row": 63,
       "aportes": {
         "pendientes": [
           {
@@ -8919,6 +8942,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1440.0,
+      "control_row": 64,
       "aportes": {
         "pendientes": [
           {
@@ -9177,6 +9201,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 2010.0,
+      "control_row": 65,
       "aportes": {
         "pendientes": [
           {
@@ -9580,6 +9605,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3340.0,
+      "control_row": 66,
       "aportes": {
         "pendientes": [
           {
@@ -9689,6 +9715,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 190.0,
+      "control_row": 67,
       "aportes": {
         "pendientes": [
           {
@@ -9810,6 +9837,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 68,
       "aportes": {
         "pendientes": [
           {
@@ -10002,6 +10030,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1120.0,
+      "control_row": 69,
       "aportes": {
         "pendientes": [
           {
@@ -10306,6 +10335,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 2310.0,
+      "control_row": 70,
       "aportes": {
         "pendientes": [
           {
@@ -10409,6 +10439,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 71,
       "aportes": {
         "pendientes": [
           {
@@ -10557,6 +10588,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 440.0,
+      "control_row": 72,
       "aportes": {
         "pendientes": [
           {
@@ -10677,6 +10709,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 160,
+      "control_row": 73,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -10865,6 +10898,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1130.0,
+      "control_row": 74,
       "aportes": {
         "pendientes": [
           {
@@ -11078,6 +11112,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1290.0,
+      "control_row": 75,
       "aportes": {
         "pendientes": [
           {
@@ -11330,6 +11365,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1820.0,
+      "control_row": 76,
       "aportes": {
         "pendientes": [
           {
@@ -11482,6 +11518,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 540,
+      "control_row": 77,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -11909,6 +11946,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3440.0,
+      "control_row": 78,
       "aportes": {
         "pendientes": [
           {
@@ -12342,6 +12380,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3330.0,
+      "control_row": 79,
       "aportes": {
         "pendientes": [
           {
@@ -12651,6 +12690,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 2270.0,
+      "control_row": 80,
       "aportes": {
         "pendientes": [
           {
@@ -12841,6 +12881,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 810.0,
+      "control_row": 81,
       "aportes": {
         "pendientes": [
           {
@@ -12944,6 +12985,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 82,
       "aportes": {
         "pendientes": [
           {
@@ -13241,6 +13283,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1700.0,
+      "control_row": 83,
       "aportes": {
         "pendientes": [
           {
@@ -13344,6 +13387,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 84,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -13446,6 +13490,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 85,
       "aportes": {
         "pendientes": [
           {
@@ -13549,6 +13594,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 86,
       "aportes": {
         "pendientes": [
           {
@@ -13663,6 +13709,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 200,
+      "control_row": 87,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -13781,6 +13828,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 150.0,
+      "control_row": 88,
       "aportes": {
         "pendientes": [
           {
@@ -13884,6 +13932,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 89,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -14003,6 +14052,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 190.0,
+      "control_row": 90,
       "aportes": {
         "pendientes": [
           {
@@ -14106,6 +14156,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 91,
       "aportes": {
         "pendientes": [
           {
@@ -14209,6 +14260,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 92,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -14334,6 +14386,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 320.0,
+      "control_row": 93,
       "aportes": {
         "pendientes": [
           {
@@ -14528,6 +14581,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1170.0,
+      "control_row": 94,
       "aportes": {
         "pendientes": [
           {
@@ -14921,6 +14975,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3070.0,
+      "control_row": 95,
       "aportes": {
         "pendientes": [
           {
@@ -15024,6 +15079,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 96,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -15299,6 +15355,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1780.0,
+      "control_row": 97,
       "aportes": {
         "pendientes": [
           {
@@ -15450,6 +15507,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 700.0,
+      "control_row": 98,
       "aportes": {
         "pendientes": [
           {
@@ -15709,6 +15767,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1960.0,
+      "control_row": 99,
       "aportes": {
         "pendientes": [
           {
@@ -15896,6 +15955,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 960.0,
+      "control_row": 100,
       "aportes": {
         "pendientes": [
           {
@@ -16213,6 +16273,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1940.0,
+      "control_row": 101,
       "aportes": {
         "pendientes": [
           {
@@ -16415,6 +16476,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 970.0,
+      "control_row": 102,
       "aportes": {
         "pendientes": [
           {
@@ -16518,6 +16580,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 103,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -16691,6 +16754,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 670.0,
+      "control_row": 104,
       "aportes": {
         "pendientes": [
           {
@@ -16956,6 +17020,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1670.0,
+      "control_row": 105,
       "aportes": {
         "pendientes": [
           {
@@ -17102,6 +17167,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 430.0,
+      "control_row": 106,
       "aportes": {
         "pendientes": [
           {
@@ -17285,6 +17351,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1360.0,
+      "control_row": 107,
       "aportes": {
         "pendientes": [
           {
@@ -17446,6 +17513,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 510.0,
+      "control_row": 108,
       "aportes": {
         "pendientes": [
           {
@@ -17571,6 +17639,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 280,
+      "control_row": 109,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -17808,6 +17877,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1590,
+      "control_row": 110,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -17910,6 +17980,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 111,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -18018,6 +18089,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 170.0,
+      "control_row": 112,
       "aportes": {
         "pendientes": [
           {
@@ -18121,6 +18193,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 113,
       "aportes": {
         "pendientes": [
           {
@@ -18224,6 +18297,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 114,
       "aportes": {
         "pendientes": [
           {
@@ -18612,6 +18686,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 2764.0,
+      "control_row": 115,
       "aportes": {
         "pendientes": [
           {
@@ -18748,6 +18823,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 360.0,
+      "control_row": 116,
       "aportes": {
         "pendientes": [
           {
@@ -18851,6 +18927,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 50.0,
+      "control_row": 117,
       "aportes": {
         "pendientes": [
           {
@@ -19014,6 +19091,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 790.0,
+      "control_row": 118,
       "aportes": {
         "pendientes": [
           {
@@ -19117,6 +19195,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 119,
       "aportes": {
         "pendientes": [
           {
@@ -19242,6 +19321,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 210,
+      "control_row": 120,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -19362,6 +19442,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 354.0,
+      "control_row": 121,
       "aportes": {
         "pendientes": [
           {
@@ -19514,6 +19595,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 610.0,
+      "control_row": 122,
       "aportes": {
         "pendientes": [
           {
@@ -19697,6 +19779,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 830.0,
+      "control_row": 123,
       "aportes": {
         "pendientes": [
           {
@@ -20190,6 +20273,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 4034.0,
+      "control_row": 124,
       "aportes": {
         "pendientes": [
           {
@@ -20292,6 +20376,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 125,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -20394,6 +20479,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 140.0,
+      "control_row": 126,
       "aportes": {
         "pendientes": [
           {
@@ -20497,6 +20583,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 127,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -20687,6 +20774,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 920.0,
+      "control_row": 128,
       "aportes": {
         "pendientes": [
           {
@@ -20796,6 +20884,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 90.0,
+      "control_row": 129,
       "aportes": {
         "pendientes": [
           {
@@ -20899,6 +20988,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 0,
+      "control_row": 130,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -21007,6 +21097,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 170.0,
+      "control_row": 131,
       "aportes": {
         "pendientes": [
           {
@@ -21193,6 +21284,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 910,
+      "control_row": 132,
       "aportes": {
         "pendientes": [],
         "pagadas": [
@@ -21311,6 +21403,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 340.0,
+      "control_row": 133,
       "aportes": {
         "pendientes": [
           {
@@ -21425,6 +21518,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 240.0,
+      "control_row": 134,
       "aportes": {
         "pendientes": [
           {
@@ -21694,6 +21788,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1720.0,
+      "control_row": 135,
       "aportes": {
         "pendientes": [
           {
@@ -21883,6 +21978,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 790.0,
+      "control_row": 136,
       "aportes": {
         "pendientes": [
           {
@@ -22366,6 +22462,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3750.0,
+      "control_row": 137,
       "aportes": {
         "pendientes": [
           {
@@ -22601,6 +22698,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 1740.0,
+      "control_row": 138,
       "aportes": {
         "pendientes": [
           {
@@ -22993,6 +23091,7 @@ const DEBT_DATA = {
         }
       },
       "grandTotal": 3010.0,
+      "control_row": 139,
       "aportes": {
         "pendientes": [
           {
