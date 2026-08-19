@@ -1,7 +1,7 @@
 // Auto-generado por generate_data.py - NO EDITAR
-// Fecha: 11/08/2026 23:00
+// Fecha: 18/08/2026 20:40
 const DEBT_DATA = {
-  "generated": "11/08/2026 23:00",
+  "generated": "18/08/2026 20:40",
   "config": {
     "faenaCostBefore": 50,
     "faenaCostAfter": 100,
@@ -1132,78 +1132,30 @@ const DEBT_DATA = {
         },
         "2024": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "10/11/2024",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "22/06/2025",
-              "cost": 50,
-              "group": "A,B,C"
-            },
-            {
-              "date": "03/08/2025",
-              "cost": 50,
-              "group": "A,B,C,D,E"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "17/08/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 100,
-          "reunionesTotal": 30,
-          "yearTotal": 130
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "01/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "19/07/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "02/08/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 90,
-          "yearTotal": 90
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 270.0,
+      "grandTotal": 0,
       "control_row": 13,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -1242,6 +1194,14 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO OCTUBRE",
             "monto": 10.0
           },
@@ -1250,7 +1210,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 20.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -2001,84 +1961,24 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "22/06/2025",
-              "cost": 50,
-              "group": "A,B,C"
-            },
-            {
-              "date": "03/08/2025",
-              "cost": 50,
-              "group": "A,B,C,D,E"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "17/08/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 100,
-          "reunionesTotal": 30,
-          "yearTotal": 130
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "08/02/2026",
-              "cost": 100,
-              "group": "A,B,C,D,E"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "01/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "19/07/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "02/08/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 100,
-          "reunionesTotal": 90,
-          "yearTotal": 190
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 460.0,
+      "grandTotal": 0,
       "control_row": 18,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -2111,9 +2011,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -2190,24 +2110,13 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "18/01/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "19/07/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 60,
-          "yearTotal": 60
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 640.0,
+      "grandTotal": 580.0,
       "control_row": 19,
       "aportes": {
         "pendientes": [
@@ -2342,19 +2251,13 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "27/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 380.0,
+      "grandTotal": 350.0,
       "control_row": 20,
       "aportes": {
         "pendientes": [
@@ -2590,16 +2493,6 @@ const DEBT_DATA = {
               "date": "20/07/2025",
               "cost": 50,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "12/10/2025",
-              "cost": 100,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "26/10/2025",
-              "cost": 100,
-              "group": "A,B,C,D,E"
             }
           ],
           "reuniones": [
@@ -2614,9 +2507,9 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 250,
+          "faenasTotal": 50,
           "reunionesTotal": 60,
-          "yearTotal": 310
+          "yearTotal": 110
         },
         "2026": {
           "faenas": [],
@@ -2632,7 +2525,7 @@ const DEBT_DATA = {
           "yearTotal": 30
         }
       },
-      "grandTotal": 740.0,
+      "grandTotal": 540.0,
       "control_row": 22,
       "aportes": {
         "pendientes": [
@@ -2839,23 +2732,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 30.0,
+      "grandTotal": 0,
       "control_row": 24,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -2894,11 +2774,23 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO SEPTIEMBRE",
             "monto": 10.0
           }
         ],
-        "totalPendiente": 30.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -3211,23 +3103,11 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "09/02/2025",
-              "cost": 50,
-              "group": "A,B,C"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "27/04/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 50,
-          "reunionesTotal": 30,
-          "yearTotal": 80
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -3237,19 +3117,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 100.0,
+      "grandTotal": 0,
       "control_row": 26,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -3288,6 +3159,14 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO OCTUBRE",
             "monto": 10.0
           },
@@ -3296,7 +3175,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 20.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -3431,16 +3310,10 @@ const DEBT_DATA = {
         },
         "2025": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -3450,31 +3323,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 170.0,
+      "grandTotal": 0,
       "control_row": 28,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -3507,9 +3359,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -3554,31 +3426,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 29,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -3611,9 +3462,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -3644,55 +3515,24 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "27/07/2025",
-              "cost": 50,
-              "group": "A,B,C,D,E"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "15/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 50,
-          "reunionesTotal": 30,
-          "yearTotal": 80
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "15/02/2026",
-              "cost": 100,
-              "group": "A,B,C,D,E"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 100,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 100
+          "yearTotal": 0
         }
       },
-      "grandTotal": 220.0,
+      "grandTotal": 0,
       "control_row": 30,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
-            "monto": 20.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -3723,8 +3563,20 @@ const DEBT_DATA = {
             "monto": 40.0
           },
           {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
           },
           {
             "name": "ADMINISTRATIVO OCTUBRE",
@@ -3735,7 +3587,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 40.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -3767,16 +3619,10 @@ const DEBT_DATA = {
         },
         "2025": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "08/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -3786,19 +3632,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 50.0,
+      "grandTotal": 0,
       "control_row": 31,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -3837,6 +3674,14 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO OCTUBRE",
             "monto": 10.0
           },
@@ -3845,7 +3690,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 20.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -4105,13 +3950,7 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "10/08/2025",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [
             {
               "date": "06/04/2025",
@@ -4119,9 +3958,9 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 50,
+          "faenasTotal": 0,
           "reunionesTotal": 30,
-          "yearTotal": 80
+          "yearTotal": 30
         },
         "2026": {
           "faenas": [],
@@ -4147,7 +3986,7 @@ const DEBT_DATA = {
           "yearTotal": 90
         }
       },
-      "grandTotal": 310.0,
+      "grandTotal": 260.0,
       "control_row": 34,
       "aportes": {
         "pendientes": [
@@ -4974,23 +4813,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 40.0,
+      "grandTotal": 0,
       "control_row": 41,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
-            "monto": 20.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -5021,8 +4847,20 @@ const DEBT_DATA = {
             "monto": 40.0
           },
           {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
           },
           {
             "name": "ADMINISTRATIVO OCTUBRE",
@@ -5033,7 +4871,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 40.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -5956,17 +5794,12 @@ const DEBT_DATA = {
               "date": "28/09/2025",
               "cost": 100,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "12/10/2025",
-              "cost": 100,
-              "group": "1 GRUPO"
             }
           ],
           "reuniones": [],
-          "faenasTotal": 200,
+          "faenasTotal": 100,
           "reunionesTotal": 0,
-          "yearTotal": 200
+          "yearTotal": 100
         },
         "2026": {
           "faenas": [],
@@ -5992,7 +5825,7 @@ const DEBT_DATA = {
           "yearTotal": 90
         }
       },
-      "grandTotal": 320,
+      "grandTotal": 220,
       "control_row": 48,
       "aportes": {
         "pendientes": [],
@@ -6095,23 +5928,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 60.0,
+      "grandTotal": 0,
       "control_row": 49,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA PARA ENEL  S/.40.00",
-            "monto": 40.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -6138,12 +5958,24 @@ const DEBT_DATA = {
             "monto": 50.0
           },
           {
+            "name": "CUOTA PARA ENEL  S/.40.00",
+            "monto": 40.0
+          },
+          {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
           },
           {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
           },
           {
             "name": "ADMINISTRATIVO OCTUBRE",
@@ -6154,7 +5986,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 60.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -6314,31 +6146,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 51,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -6371,9 +6182,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -7610,58 +7441,11 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "26/01/2025",
-              "cost": 50,
-              "group": "D,E,F"
-            },
-            {
-              "date": "01/06/2025",
-              "cost": 50,
-              "group": "D,E,F"
-            },
-            {
-              "date": "29/06/2025",
-              "cost": 50,
-              "group": "D,E,F"
-            },
-            {
-              "date": "06/07/2025",
-              "cost": 50,
-              "group": "A,B,C,D,E"
-            },
-            {
-              "date": "13/07/2025",
-              "cost": 50,
-              "group": "A,B,C,D,E"
-            },
-            {
-              "date": "20/07/2025",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "15/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "29/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 300,
-          "reunionesTotal": 90,
-          "yearTotal": 390
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -7671,31 +7455,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 530.0,
+      "grandTotal": 0,
       "control_row": 58,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -7728,9 +7491,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -7775,31 +7558,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 59,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -7832,9 +7594,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -7879,31 +7661,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 60,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -7936,9 +7697,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -8236,19 +8017,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 20.0,
+      "grandTotal": 0,
       "control_row": 62,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -8287,6 +8059,14 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO OCTUBRE",
             "monto": 10.0
           },
@@ -8295,7 +8075,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 20.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -8718,11 +8498,6 @@ const DEBT_DATA = {
               "date": "28/09/2025",
               "cost": 100,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "05/10/2025",
-              "cost": 100,
-              "group": "A,B,C,D,E"
             }
           ],
           "reuniones": [
@@ -8757,18 +8532,12 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 950,
+          "faenasTotal": 850,
           "reunionesTotal": 180,
-          "yearTotal": 1130
+          "yearTotal": 1030
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "15/02/2026",
-              "cost": 100,
-              "group": "A,B,C,D,E"
-            }
-          ],
+          "faenas": [],
           "reuniones": [
             {
               "date": "27/03/2026",
@@ -8776,12 +8545,12 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 100,
+          "faenasTotal": 0,
           "reunionesTotal": 30,
-          "yearTotal": 130
+          "yearTotal": 30
         }
       },
-      "grandTotal": 1440.0,
+      "grandTotal": 1240.0,
       "control_row": 64,
       "aportes": {
         "pendientes": [
@@ -9668,23 +9437,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 30.0,
+      "grandTotal": 0,
       "control_row": 68,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -9723,11 +9479,23 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO SEPTIEMBRE",
             "monto": 10.0
           }
         ],
-        "totalPendiente": 30.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -9809,16 +9577,6 @@ const DEBT_DATA = {
               "date": "12/10/2025",
               "cost": 100,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "26/10/2025",
-              "cost": 100,
-              "group": "A,B,C,D,E"
-            },
-            {
-              "date": "16/11/2025",
-              "cost": 100,
-              "group": "A,B,C,D,E"
             }
           ],
           "reuniones": [
@@ -9833,9 +9591,9 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 800,
+          "faenasTotal": 600,
           "reunionesTotal": 60,
-          "yearTotal": 860
+          "yearTotal": 660
         },
         "2026": {
           "faenas": [],
@@ -9861,7 +9619,7 @@ const DEBT_DATA = {
           "yearTotal": 90
         }
       },
-      "grandTotal": 1120.0,
+      "grandTotal": 920.0,
       "control_row": 69,
       "aportes": {
         "pendientes": [
@@ -10275,31 +10033,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 71,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -10332,9 +10069,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -10359,16 +10116,10 @@ const DEBT_DATA = {
         },
         "2024": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "30/06/2024",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2025": {
           "faenas": [
@@ -10378,21 +10129,10 @@ const DEBT_DATA = {
               "group": "D,E,F"
             }
           ],
-          "reuniones": [
-            {
-              "date": "29/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 50,
-          "reunionesTotal": 60,
-          "yearTotal": 110
+          "reunionesTotal": 0,
+          "yearTotal": 50
         },
         "2026": {
           "faenas": [
@@ -10402,49 +10142,16 @@ const DEBT_DATA = {
               "group": "F,G,H,I"
             }
           ],
-          "reuniones": [
-            {
-              "date": "27/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "29/04/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "19/07/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 100,
-          "reunionesTotal": 90,
-          "yearTotal": 190
+          "reunionesTotal": 0,
+          "yearTotal": 100
         }
       },
-      "grandTotal": 370.0,
+      "grandTotal": 150,
       "control_row": 72,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -10481,9 +10188,25 @@ const DEBT_DATA = {
           {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 40.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -10521,31 +10244,14 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "01/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "18/01/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "31/05/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 100,
-          "reunionesTotal": 60,
-          "yearTotal": 160
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 160,
+      "grandTotal": 0,
       "control_row": 73,
       "aportes": {
         "pendientes": [],
@@ -11311,65 +11017,21 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "15/06/2025",
-              "cost": 50,
-              "group": "D,E,F"
-            },
-            {
-              "date": "13/07/2025",
-              "cost": 50,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "27/07/2025",
-              "cost": 50,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "19/10/2025",
-              "cost": 100,
-              "group": "E,F,G,H,I"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "30/11/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 250,
-          "reunionesTotal": 60,
-          "yearTotal": 310
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "08/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "27/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 100,
-          "reunionesTotal": 30,
-          "yearTotal": 130
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 440,
+      "grandTotal": 0,
       "control_row": 77,
       "aportes": {
         "pendientes": [],
@@ -12860,31 +12522,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 82,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -12917,9 +12558,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -13065,13 +12726,7 @@ const DEBT_DATA = {
           "yearTotal": 120
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "12/01/2025",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [
             {
               "date": "19/01/2025",
@@ -13082,41 +12737,11 @@ const DEBT_DATA = {
               "date": "23/02/2025",
               "cost": 30,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "02/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "08/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "15/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "29/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "06/04/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 50,
-          "reunionesTotal": 240,
-          "yearTotal": 290
+          "faenasTotal": 0,
+          "reunionesTotal": 60,
+          "yearTotal": 60
         },
         "2026": {
           "faenas": [],
@@ -13126,7 +12751,7 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 1480.0,
+      "grandTotal": 1250.0,
       "control_row": 83,
       "aportes": {
         "pendientes": [
@@ -13224,19 +12849,13 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "02/08/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 30,
+      "grandTotal": 0,
       "control_row": 84,
       "aportes": {
         "pendientes": [],
@@ -13339,31 +12958,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 85,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -13396,9 +12994,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -13443,31 +13061,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 86,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -13500,9 +13097,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -13870,62 +13487,24 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "03/08/2025",
-              "cost": 50,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "10/08/2025",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 100,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 100
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "18/01/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 190.0,
+      "grandTotal": 0,
       "control_row": 90,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
-            "monto": 20.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -13956,11 +13535,31 @@ const DEBT_DATA = {
             "monto": 40.0
           },
           {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 60.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -15043,11 +14642,6 @@ const DEBT_DATA = {
               "date": "28/09/2025",
               "cost": 100,
               "group": "1 GRUPO"
-            },
-            {
-              "date": "12/10/2025",
-              "cost": 100,
-              "group": "1 GRUPO"
             }
           ],
           "reuniones": [
@@ -15087,18 +14681,12 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 900,
+          "faenasTotal": 800,
           "reunionesTotal": 210,
-          "yearTotal": 1110
+          "yearTotal": 1010
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "08/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
+          "faenas": [],
           "reuniones": [
             {
               "date": "27/03/2026",
@@ -15116,12 +14704,12 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 100,
+          "faenasTotal": 0,
           "reunionesTotal": 90,
-          "yearTotal": 190
+          "yearTotal": 90
         }
       },
-      "grandTotal": 1710.0,
+      "grandTotal": 1510.0,
       "control_row": 97,
       "aportes": {
         "pendientes": [
@@ -15204,100 +14792,31 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2024": {
-          "faenas": [
-            {
-              "date": "27/10/2024",
-              "cost": 50,
-              "group": "G,H,I"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 50,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 50
+          "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "12/01/2025",
-              "cost": 50,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "22/06/2025",
-              "cost": 50,
-              "group": "G,H,I"
-            },
-            {
-              "date": "29/06/2025",
-              "cost": 50,
-              "group": "G,H,I"
-            },
-            {
-              "date": "19/10/2025",
-              "cost": 100,
-              "group": "E,F,G,H,I"
-            },
-            {
-              "date": "12/10/2025",
-              "cost": 100,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "23/11/2025",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 450,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 450
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "27/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "29/04/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 60,
-          "yearTotal": 60
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 700.0,
+      "grandTotal": 0,
       "control_row": 98,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -15330,9 +14849,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -16247,15 +15786,10 @@ const DEBT_DATA = {
           "yearTotal": 60
         }
       },
-      "grandTotal": 970.0,
+      "grandTotal": 960,
       "control_row": 102,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -16294,6 +15828,10 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO NOVIEMBRE",
             "monto": 10.0
           },
@@ -16306,7 +15844,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 10.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -16345,19 +15883,13 @@ const DEBT_DATA = {
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "02/08/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 30,
+      "grandTotal": 0,
       "control_row": 103,
       "aportes": {
         "pendientes": [],
@@ -16832,16 +16364,10 @@ const DEBT_DATA = {
               "group": "F,G,H,I"
             }
           ],
-          "reuniones": [
-            {
-              "date": "02/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 100,
-          "reunionesTotal": 30,
-          "yearTotal": 130
+          "reunionesTotal": 0,
+          "yearTotal": 100
         },
         "2026": {
           "faenas": [],
@@ -16851,27 +16377,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 170.0,
+      "grandTotal": 100,
       "control_row": 106,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -16908,9 +16417,25 @@ const DEBT_DATA = {
           {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 40.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -17222,39 +16747,17 @@ const DEBT_DATA = {
         },
         "2024": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "30/06/2024",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "27/07/2025",
-              "cost": 50,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "19/10/2025",
-              "cost": 100,
-              "group": "E,F,G,H,I"
-            },
-            {
-              "date": "12/10/2025",
-              "cost": 100,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 250,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 250
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -17264,7 +16767,7 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 280,
+      "grandTotal": 0,
       "control_row": 109,
       "aportes": {
         "pendientes": [],
@@ -17389,21 +16892,6 @@ const DEBT_DATA = {
               "date": "29/06/2025",
               "cost": 50,
               "group": "G,H,I"
-            },
-            {
-              "date": "19/10/2025",
-              "cost": 100,
-              "group": "E,F,G,H,I"
-            },
-            {
-              "date": "09/11/2025",
-              "cost": 100,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "23/11/2025",
-              "cost": 100,
-              "group": "F,G,H,I"
             }
           ],
           "reuniones": [
@@ -17438,51 +16926,25 @@ const DEBT_DATA = {
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 550,
+          "faenasTotal": 250,
           "reunionesTotal": 180,
-          "yearTotal": 730
+          "yearTotal": 430
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "01/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "08/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "15/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
+          "faenas": [],
           "reuniones": [
-            {
-              "date": "27/03/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "29/04/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
             {
               "date": "19/07/2026",
               "cost": 30,
               "group": "1 GRUPO"
             }
           ],
-          "faenasTotal": 300,
-          "reunionesTotal": 90,
-          "yearTotal": 390
+          "faenasTotal": 0,
+          "reunionesTotal": 30,
+          "yearTotal": 30
         }
       },
-      "grandTotal": 1220,
+      "grandTotal": 560,
       "control_row": 110,
       "aportes": {
         "pendientes": [],
@@ -17675,56 +17137,23 @@ const DEBT_DATA = {
         },
         "2025": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "19/01/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "19/07/2026",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         }
       },
-      "grandTotal": 200.0,
+      "grandTotal": 0,
       "control_row": 112,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -17757,9 +17186,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -17804,31 +17253,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 113,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -17861,9 +17289,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -17908,31 +17356,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 114,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -17965,9 +17392,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -18390,51 +17837,18 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2024": {
-          "faenas": [
-            {
-              "date": "15/12/2024",
-              "cost": 50,
-              "group": "G,H,I"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 50,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 50
+          "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "12/01/2025",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "23/02/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "08/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "15/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 50,
-          "reunionesTotal": 120,
-          "yearTotal": 170
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -18444,31 +17858,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 360.0,
+      "grandTotal": 0,
       "control_row": 116,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -18501,9 +17894,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -18548,27 +17961,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 50.0,
+      "grandTotal": 0,
       "control_row": 117,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
-            "monto": 20.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -18599,15 +17995,31 @@ const DEBT_DATA = {
             "monto": 40.0
           },
           {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
           },
           {
             "name": "ADMINISTRATIVO SEPTIEMBRE",
             "monto": 10.0
           }
         ],
-        "totalPendiente": 50.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -18625,16 +18037,10 @@ const DEBT_DATA = {
         },
         "2023": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "22/10/2023",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2024": {
           "faenas": [],
@@ -18658,29 +18064,13 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 170.0,
+      "grandTotal": 100.0,
       "control_row": 118,
       "aportes": {
         "pendientes": [
           {
             "name": "CUOTA DE 100",
             "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
           }
         ],
         "pagadas": [
@@ -18715,9 +18105,25 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 100.0,
         "totalCuotas": 13
       }
     },
@@ -18762,31 +18168,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 140.0,
+      "grandTotal": 0,
       "control_row": 119,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -18819,9 +18204,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -19154,25 +18559,14 @@ const DEBT_DATA = {
           "yearTotal": 290
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "08/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "15/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 200,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 200
+          "yearTotal": 0
         }
       },
-      "grandTotal": 610.0,
+      "grandTotal": 410.0,
       "control_row": 122,
       "aportes": {
         "pendientes": [
@@ -19248,122 +18642,38 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2023": {
-          "faenas": [
-            {
-              "date": "11/06/2023",
-              "cost": 50,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "02/07/2023",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 100,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 100
+          "yearTotal": 0
         },
         "2024": {
-          "faenas": [
-            {
-              "date": "03/03/2024",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 50,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 50
+          "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "03/08/2025",
-              "cost": 50,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "28/09/2025",
-              "cost": 100,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "23/11/2025",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
-          "reuniones": [
-            {
-              "date": "23/02/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "02/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "08/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "15/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "29/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            },
-            {
-              "date": "17/08/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
-          "faenasTotal": 250,
-          "reunionesTotal": 210,
-          "yearTotal": 460
+          "faenas": [],
+          "reuniones": [],
+          "faenasTotal": 0,
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
-          "faenas": [
-            {
-              "date": "01/02/2026",
-              "cost": 100,
-              "group": "F,G,H,I"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 100,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 100
+          "yearTotal": 0
         }
       },
-      "grandTotal": 730.0,
+      "grandTotal": 0,
       "control_row": 123,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -19402,6 +18712,14 @@ const DEBT_DATA = {
             "monto": 100.0
           },
           {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
             "name": "ADMINISTRATIVO OCTUBRE",
             "monto": 10.0
           },
@@ -19410,7 +18728,7 @@ const DEBT_DATA = {
             "monto": 10.0
           }
         ],
-        "totalPendiente": 20.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -20124,7 +19442,7 @@ const DEBT_DATA = {
       }
     },
     "I-8": {
-      "name": "Jorge Tobias Lopez Clemente",
+      "name": "Luz Alberta Villaorduña",
       "mz": "I",
       "lt": "8",
       "years": {
@@ -20355,31 +19673,10 @@ const DEBT_DATA = {
           "yearTotal": 130
         }
       },
-      "grandTotal": 920.0,
+      "grandTotal": 780,
       "control_row": 128,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -20412,9 +19709,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -20446,16 +19763,10 @@ const DEBT_DATA = {
         },
         "2025": {
           "faenas": [],
-          "reuniones": [
-            {
-              "date": "30/03/2025",
-              "cost": 30,
-              "group": "1 GRUPO"
-            }
-          ],
+          "reuniones": [],
           "faenasTotal": 0,
-          "reunionesTotal": 30,
-          "yearTotal": 30
+          "reunionesTotal": 0,
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -20465,31 +19776,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 90.0,
+      "grandTotal": 0,
       "control_row": 129,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
-            "monto": 20.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -20520,11 +19810,31 @@ const DEBT_DATA = {
             "monto": 40.0
           },
           {
+            "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
+            "monto": 20.0
+          },
+          {
             "name": "CUOTA DE 100",
             "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 60.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
@@ -20984,22 +20294,11 @@ const DEBT_DATA = {
           "yearTotal": 0
         },
         "2025": {
-          "faenas": [
-            {
-              "date": "03/08/2025",
-              "cost": 50,
-              "group": "F,G,H,I"
-            },
-            {
-              "date": "10/08/2025",
-              "cost": 50,
-              "group": "1 GRUPO"
-            }
-          ],
+          "faenas": [],
           "reuniones": [],
-          "faenasTotal": 100,
+          "faenasTotal": 0,
           "reunionesTotal": 0,
-          "yearTotal": 100
+          "yearTotal": 0
         },
         "2026": {
           "faenas": [],
@@ -21009,31 +20308,10 @@ const DEBT_DATA = {
           "yearTotal": 0
         }
       },
-      "grandTotal": 240.0,
+      "grandTotal": 0,
       "control_row": 134,
       "aportes": {
-        "pendientes": [
-          {
-            "name": "CUOTA DE 100",
-            "monto": 100.0
-          },
-          {
-            "name": "ADMINISTRATIVO DICIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO NOVIEMBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO OCTUBRE",
-            "monto": 10.0
-          },
-          {
-            "name": "ADMINISTRATIVO SEPTIEMBRE",
-            "monto": 10.0
-          }
-        ],
+        "pendientes": [],
         "pagadas": [
           {
             "name": "CERCO PERIMÉTRICO S/. 10.00",
@@ -21066,9 +20344,29 @@ const DEBT_DATA = {
           {
             "name": "CUOTA PARA EL PLANO  LOCAL COMUNAL S/ 20.00",
             "monto": 20.0
+          },
+          {
+            "name": "CUOTA DE 100",
+            "monto": 100.0
+          },
+          {
+            "name": "ADMINISTRATIVO DICIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO NOVIEMBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO OCTUBRE",
+            "monto": 10.0
+          },
+          {
+            "name": "ADMINISTRATIVO SEPTIEMBRE",
+            "monto": 10.0
           }
         ],
-        "totalPendiente": 140.0,
+        "totalPendiente": 0,
         "totalCuotas": 13
       }
     },
